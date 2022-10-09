@@ -13,7 +13,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
 /* Event form */
 #event-description{
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)),
@@ -403,6 +402,4 @@
     #cta .btn{
         width: 80%;
     }
-
 }
-
