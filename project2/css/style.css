@@ -7,7 +7,7 @@
 }
  */
 body{
-    background-color: rgb(34, 34, 34);
+    background-color: #002;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     max-width: 1200px;
@@ -25,16 +25,81 @@ header{
     line-height: 10px;
 }
 
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    color: #eecc0b;
+    transition: 0.3s all;
+}
+
 h1{
     font-weight: 200;
 }
 
-#coffe{
-    color: #379933;
-}
-
-
 main{
     display: flex;
-    
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 58px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+span{
+    color: #eecc0b;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+img{
+    width: 610px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#subscribe{
+    border: 2px solid #eecc0b;
+    padding: 10px;
+    border-radius: 17px;
+}
+
+#subscribe:hover{
+   background-color: #eecc0b;
+   color: #002;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #eecc0b;
+    color: #002;
+    font-weight: bold;
+    cursor: pointer;
 }
